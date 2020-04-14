@@ -1,0 +1,9 @@
+chatapp:
+  ribbon:
+    eureka:
+      enabled: false
+    listOfServers: localhost:9990,localhost:9991,localhost:9992
+    ServerListRefreshInterval: 2000
+
+    server:
+      port: 9999
